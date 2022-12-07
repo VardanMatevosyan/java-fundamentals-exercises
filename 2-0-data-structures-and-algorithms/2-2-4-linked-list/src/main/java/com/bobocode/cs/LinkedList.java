@@ -264,6 +264,14 @@ public class LinkedList<T> implements List<T> {
         size = 0;
     }
 
+    private void reverse() {
+        Node<T> tempHead = head;
+        Node<T> tempTail = tail;
+
+
+
+    }
+
     static class Node<T> {
         T item;
         Node<T> next;
